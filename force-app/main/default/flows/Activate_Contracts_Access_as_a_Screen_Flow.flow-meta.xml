@@ -15,8 +15,16 @@
             </value>
         </inputParameters>
         <nameSegment>activateSessionPermSet</nameSegment>
+        <offset>0</offset>
     </actionCalls>
     <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <customProperties>
+        <name>ScreenProgressIndicator</name>
+        <value>
+            <stringValue>{&quot;location&quot;:&quot;top&quot;,&quot;type&quot;:&quot;simple&quot;}</stringValue>
+        </value>
+    </customProperties>
     <environments>Default</environments>
     <interviewLabel>Activate Contracts Access as a Screen Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Activate Contracts Access as a Screen Flow</label>

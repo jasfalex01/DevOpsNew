@@ -1,108 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Standard and Custom Objects -->
     <types>
         <members>*</members>
         <name>CustomObject</name>
     </types>
+    
+    <!-- Custom Fields -->
     <types>
         <members>*</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>RecordType</name>
-    </types>
+    
+    <!-- Validation Rules -->
     <types>
         <members>*</members>
         <name>ValidationRule</name>
     </types>
+    
+    <!-- Page Layouts -->
     <types>
         <members>*</members>
-        <name>WorkflowRule</name>
+        <name>Layout</name>
     </types>
+    
+    <!-- Record Types -->
     <types>
         <members>*</members>
-        <name>EmailTemplate</name>
+        <name>RecordType</name>
     </types>
+    
+    <!-- List Views -->
     <types>
         <members>*</members>
-        <name>Report</name>
+        <name>ListView</name>
     </types>
+    
+    <!-- Field Sets -->
     <types>
         <members>*</members>
-        <name>Dashboard</name>
+        <name>FieldSet</name>
     </types>
+    
+    <!-- Compact Layouts -->
     <types>
         <members>*</members>
-        <name>StaticResource</name>
+        <name>CompactLayout</name>
     </types>
+    
+    <!-- Search Layouts -->
     <types>
         <members>*</members>
-        <name>CustomLabels</name>
+        <name>SearchLayout</name>
     </types>
+    
+    <!-- Business Processes -->
     <types>
         <members>*</members>
-        <name>RemoteSiteSetting</name>
+        <name>BusinessProcess</name>
     </types>
+    
+    <!-- Web Links -->
     <types>
         <members>*</members>
-        <name>ConnectedApp</name>
+        <name>WebLink</name>
     </types>
+    
+    <!-- Custom Tabs -->
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    
+    <!-- Custom Applications -->
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    
+    <!-- Profiles -->
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+    
+    <!-- Permission Sets -->
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    
+    <!-- Roles -->
     <types>
         <members>*</members>
         <name>Role</name>
     </types>
+    
+    <!-- Groups -->
     <types>
         <members>*</members>
         <name>Group</name>
     </types>
+    
+    <!-- Queues -->
     <types>
         <members>*</members>
         <name>Queue</name>
     </types>
+    
     <version>58.0</version>
 </Package>
